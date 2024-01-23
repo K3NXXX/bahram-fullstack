@@ -1,5 +1,5 @@
 import UserModel from "../models/UserModel.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
