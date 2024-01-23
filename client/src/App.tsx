@@ -11,6 +11,7 @@ import { HomeHeader } from "./components/Header/HomeHeader/HomeHeader";
 import { getPosts } from "./redux/slices/posts/postsSlice";
 import style from "./global.module.scss";
 
+
 const App: React.FC = () => {
     const dispatch = useDispatch<AppDispatch>();
     const location = useLocation();
